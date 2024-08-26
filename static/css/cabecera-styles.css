@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    background-color: rgb(147, 20, 220)   ;
+}
+
+.contenedor-menu{
+    height: 100px;
+    width: 80%;
+    background-color: rgb(26, 24, 25);
+    margin: 0 auto;
+}
+
+.contenedor-menu h1{
+    color: black;
+    text-align: center;
+    text-shadow: 6px 6px 6px rgb(76, 0, 255);
+    line-height: 60px;
+
+}
+
+.contenedor-menu ul{
+    display: flex;
+}
+
+.contenedor-menu ul li{
+    list-style-type: none;
+    margin-left: 150px;
+
+}
+
+.contenedor-menu ul li a{
+    list-style-type: none;
+    padding-top: 10px;
+
+}
+
+.contenedor-menu ul li a:hover{
+    font-size: 28px;
+    color: rgb(237, 100, 100);
+    background-color: rgb(139, 0, 81);
+}
